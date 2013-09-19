@@ -1,0 +1,100 @@
+<!doctype HTML>
+
+<html>
+	<head>
+		<meta charset=utf-8>
+
+		<meta name="author" content="Juda Kaleta <juda.kaleta@gmail.com>">
+		<meta content="index, follow" name="robots">
+
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="default.css" rel="stylesheet" type="text/css">
+
+		<title>Juda Kaleta - CV</title>
+	</head>
+
+	<body>
+    <h1>{{ name }}</h1>
+
+    <dl>
+      <dt>E-mail:</dt>
+      <dd><a href="mailto:{{ mail }}">{{ mail }}</a></dd>
+
+      <dt>Telefon:</dt>
+      <dd><a href="tel:{{ phone|replace(" ", "") }}">{{ phone }}</a></dd>
+
+      <dt>Web:</dt>
+      <dd><a href="{{ web }}">{{ web }}</a></dd>
+
+      <dt>Jazyky:</dt>
+      <dd>{{ languages|join(', ') }}</dd>
+
+      <dt>Znalosti:</dt>
+      <dd>
+        {{ knowledge['primary']|join(', ') }}<br>
+        <small>{{ knowledge['secondary']|join(', ') }}</small>
+      </dd>
+    </dl>
+
+    <h2>Vzdělání</h2>
+    <ul>
+      {% for school in education %}
+        <li>
+          <strong>{{ school.name }}</strong>
+          - {{ school.description }} ({{ school.start }} - {{ school.end }})
+        </li>
+      {% endfor %}
+    </ul>
+
+    <h2>Pracovní zkušenosti</h2>
+    {% for job in jobs %}
+      <h3><a href="{{ job.web }}">{{ job.name }}</a></h3>
+      <p>
+        {{ job.position }} ({{ job.start }} - {{ job.end }})<br>
+        {{ job.description }}
+      </p>
+    {% endfor %}
+
+    <h3>Další reference</h3>
+    <p><small>
+      {% for reference in references %}
+        <a href="{{ reference.web }}">
+          {{ reference.name }}</a>{% if not loop.last %}, {% endif %}
+      {% endfor %}
+    </small></p>
+
+
+
+    <h2>Vlastní projekty</h2>
+    {% for project in projects %}
+      <h3><a href="{{ project.web }}">{{ project.name }}</a></h3>
+      <p>
+        {{ project.description }}
+      </p>
+    {% endfor %}
+
+
+    <h2>Soutěže a ocenění</h2>
+    <ul>
+      {% for competition in competitions %}
+        <li>
+        <strong>
+          {% if competition.web %}<a href="{{ competition.web }}">{% endif %}
+          {{ competition.name }}{% if competition.web %}</a>{% endif %}
+        </strong>
+          ({{ competition.year }})<br>
+          <small>{{ competition.description }}</small>
+        </li>
+      {% endfor %}
+    </ul>
+
+
+    <h2>Odkazy</h2>
+    <ul>
+      {% for link in links %}
+      <li><a href="{{ link.web }}">{{ link.name }}</a></li>
+      {% endfor %}
+    </ul>
+	</body>
+</html>
+

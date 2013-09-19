@@ -1,0 +1,113 @@
+name: Juda Kaleta
+mail: juda.kaleta@gmail.com
+phone: 724 895 049
+web: http://www.judakaleta.cz
+
+languages: [angličtina (pokročilý), francouzština (základy), němčina (základy)]
+
+knowledge:
+    primary: [Python, Django, Git]
+    secondary: [PHP, Linux, HTML, CSS, Less, JavaScript, jQuery, SQL]
+
+education:
+    -
+        name: Gymnázium Jaroslava Vrchlického Klatovy
+        start: 2007
+        end: 2013
+        description: maturitní zkouška
+
+jobs:
+    -
+        name: Wegra.eu
+        description: správa a vývoj internetových obchodů postavených na
+            osCommerce
+        web: http://www.wegra.eu
+        position: externí programátor
+        start: 2008
+        end: 2013
+    -
+        name: Programujte.com
+        description: psaní článků se zaměřením na vývoj webových aplikací
+        web: http://programujte.com/profil/12995-juda-kaleta/
+        position: redaktor
+        start: 2009
+        end: do současnosti
+
+projects:
+    -
+        name: django-embed-video
+        description: Balíček pro Django umožňující snadné vložení videa z
+            YouTube, Vimeo nebo hudby ze SoundCloud.
+        web: https://github.com/yetty/django-embed-video
+    -
+        name: cstypo
+        description: Balíček pro Python a Django k aplikaci českých
+            typografických pravidel na HTML dokument.
+        web: https://github.com/yetty/cstypo
+    -
+        name: DevContest
+        description: Aplikace pro zadávání úkolů a vytváření soutěží v programování.
+        web: http://pythonhosted.org/DevContest/index.html
+
+
+references:
+    -
+        name: Tchoříci.cz
+        web: http://www.tchorici.cz
+    -
+        name: Klub Alfa Nýrsko, o. s.
+        web: http://klub.nyrsko.cz
+    -
+        name: Ubytování U Obra
+        web: http://uobra.sumavou.cz/cs/index.html
+    -
+        name: Lukáš Kopp & Alfa BMX
+        web: http://klub.nyrsko.info/lukaskopp/
+
+
+competitions:
+    -
+        name: 4. místo v 23. ročníku KSP
+        description: Účast v celoroční soutěži korespondenčního semináře z programování.
+        year: 2011
+        web: http://ksp.mff.cuni.cz/tasks/23/score5.html
+    -
+        name: 11. místo v 61. ročníku MO-P
+        description: Účast na celostátním kole matematické olympiády kategorie P.
+        year: 2012
+        web: http://mo.mff.cuni.cz/p/61/vysledky-3.html
+    -
+        name: 19.-21. místo v 60. ročníku MO-P
+        description: Účast na celostátním kole matematické olympiády kategorie P.
+        year: 2011
+        web: http://mo.mff.cuni.cz/p/60/vysledky-3.html
+    -
+        name: 2. místo v soutěži PilsProg
+        description: Účast na soutěži PilsProg.
+        year: 2010
+        web: http://pilsprog.fav.zcu.cz/index.php/Finale_10
+    -
+        name: 1. místo v krajském kole Soutěže v programování
+        description: Účast na krajském kole soutěže z programování kategorie
+            vyšší programovací jazyky, mládež.
+        year: 2013
+    -
+        name: 1. místo v krajském kole FO-D
+        description: Účast na krajském kole fyzikální olympiády kategorie D
+        year: 2010
+        web: https://docs.google.com/viewer?url=http%3A%2F%2Fkof.zcu.cz%2Ffo%2F2010%2FFO_D_2010.xls
+    -
+        name: 4. místo v krajském kole MO-B
+        description: Účast v krajském kole matematické olympiády kategorie B
+        year: 2012
+
+links:
+    -
+        name: Profil na Github.com
+        web: https://github.com/yetty
+    -
+        name: Osobní webová prezentace
+        web: http://www.judakaleta.cz
+    -
+        name: Profil na Linkedin.com
+        web: http://cz.linkedin.com/in/yettycz
