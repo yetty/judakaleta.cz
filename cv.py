@@ -5,8 +5,15 @@ import yaml
 import codecs
 from jinja2 import Template
 
+OUTPUTS = (
+    ('template.html', 'index.html'),
+    ('template_school.html', 'school.html')
+)
+
 if __name__ == '__main__':
-    output = codecs.open('index.html', 'w', 'utf-8')
-    template = Template(codecs.open('template.html', 'r', 'utf-8').read())
     data = yaml.load(open('data.yaml'))
-    output.write(template.render(**data))
+
+    for template, output_name in OUTPUTS:
+        output = codecs.open(output_name, 'w', 'utf-8')
+        template = Template(codecs.open(template, 'r', 'utf-8').read())
+        output.write(template.render(**data))

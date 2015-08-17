@@ -41,7 +41,7 @@
       {% for school in education %}
         <li>
           <strong>{{ school.name }}</strong>
-          - {{ school.description }} ({{ school.start }} - {{ school.end }})
+          — {{ school.description }} ({{ school.start }} — {{ school.end }})
         </li>
       {% endfor %}
     </ul>
@@ -50,7 +50,7 @@
     {% for job in jobs %}
       <h3><a href="{{ job.web }}">{{ job.name }}</a></h3>
       <p>
-        {{ job.position }} ({{ job.start }} - {{ job.end }})<br>
+        {{ job.position }} ({{ job.start }} — {{ job.end }})<br>
         {{ job.description }}
       </p>
     {% endfor %}

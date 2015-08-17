@@ -2,21 +2,65 @@ name: Juda Kaleta
 mail: juda.kaleta@gmail.com
 phone: 724 895 049
 web: http://www.judakaleta.cz
+birth: 8. října 1993
 
-languages: [angličtina (pokročilý), francouzština (základy), němčina (základy)]
+address:
+    Náměstí 483,
+    340 22 Nýrsko
+
+languages:
+    - angličtina (pokročilý)
+    - francouzština (základy)
+    - němčina (základy)
+    - latina (základy)
 
 knowledge:
     primary: [Python, Django, Git]
-    secondary: [PHP, Linux, HTML, CSS, Less, JavaScript, jQuery, SQL]
+    secondary: [PHP, C#, Linux, HTML, CSS, Less, JavaScript, jQuery, SQL, Apiary]
 
 education:
+    -
+        name: Pedagogická fakulta Univerzity Karlovy v Praze
+        start: 2013
+        end: současnost
+        description:
+            bakalářské studium, specializace v&nbsp;pedagogice,
+            obor český jazyk — dějepis
     -
         name: Gymnázium Jaroslava Vrchlického Klatovy
         start: 2007
         end: 2013
-        description: maturitní zkouška
+        description:
+            maturitní zkouška (český jazyk a dějepis ve školní části,
+            český jazyk a matematika ve státní části)
+
+
+praxe:
+    -
+        title: vedoucí zájmového kroužku programování
+        start: 2010
+        end: 2013
+        web: http://www.klatovynet.cz/gymkt/
+        description: "Vedení zájmového kroužku z programování na gymnáziu Jaroslava Vrchlického v Klatovech. Vyučování algoritmizace, datových struktur a návrhu software. Používané programovací jazyky: Python, Pascal."
+    -
+        title: vedoucí dětského tábora
+        start: 2011
+        web: http://klub.nyrsko.info/cs/clanek/letni-tabor-2011/
+        description: Organizování dětského tábora se sdružením Klub Alfa Nýrsko o. s. Tábora se účastnilo 16 dětí ve věku 10-16 let.
+    -
+        title: vedoucí dětského tábora
+        start: 2010
+        web: http://klub.nyrsko.info/cs/clanek/o-letnim-tabore-2010/
+        description: Organizování dětského tábora se sdružením Klub Alfa Nýrsko o. s. Tábora se účastnilo 14 dětí ve věku 10-16 let.
 
 jobs:
+    -
+        name: Codescale
+        description: vývoj webových aplikací v Python/Django a C#, návrh API
+        web: http://www.codescale.cz/
+        position: programátor
+        start: 2013
+        end: současnost
     -
         name: Wegra.eu
         description: správa a vývoj internetových obchodů postavených na
@@ -31,7 +75,7 @@ jobs:
         web: http://programujte.com/profil/12995-juda-kaleta/
         position: redaktor
         start: 2009
-        end: do současnosti
+        end: 2014
 
 projects:
     -
