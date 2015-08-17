@@ -147,11 +147,36 @@ competitions:
 
 links:
     -
+        name: Profil na Academia.edu
+        web: https://cuni.academia.edu/JudaKaleta
+    -
+        name: Editované stránky na Wikipedia
+        web: https://cs.wikipedia.org/wiki/Speci%C3%A1ln%C3%AD:P%C5%99%C3%ADsp%C4%9Bvky/Juda.kaleta
+    -
         name: Profil na Github.com
         web: https://github.com/yetty
     -
-        name: Osobní webová prezentace
-        web: http://www.judakaleta.cz
-    -
         name: Profil na Linkedin.com
         web: http://cz.linkedin.com/in/yettycz
+        
+bibliography:
+    -
+        title: Historie města Nýrska se zaměřením na 20. století
+        year: 2014
+        file: 2014-nyrsko.pdf
+        
+    -
+        title: Balady a romance - zamyšlení nad náboženskou tematikou v básních Jana Nerudy
+        year: 2014
+        file: 2014-balady-a-romance.pdf
+        
+    -
+        title: Ráj a Élysion, představy prvních křesťanů o onom světě
+        year: 2015
+        file: 2015-raj-a-elysion.pdf
+        
+    -
+        title: Písní proti totalitě? — Spirituál kvintet jako (anti)symbol minulého režimu
+        year: 2015
+        file: 2015-spiritual-kvintet.pdf
+        

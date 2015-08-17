@@ -7,7 +7,6 @@ from jinja2 import Template
 
 OUTPUTS = (
     ('template.html', 'index.html'),
-    ('template_school.html', 'school.html')
 )
 
 if __name__ == '__main__':

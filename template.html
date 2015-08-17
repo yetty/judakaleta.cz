@@ -10,7 +10,7 @@
     <link href="reset.css" rel="stylesheet" type="text/css">
     <link href="default.css" rel="stylesheet" type="text/css">
 
-		<title>Juda Kaleta - CV</title>
+		<title>Juda Kaleta</title>
 	</head>
 
 	<body>
@@ -20,28 +20,36 @@
       <dt>E-mail:</dt>
       <dd><a href="mailto:{{ mail }}">{{ mail }}</a></dd>
 
-      <dt>Telefon:</dt>
-      <dd><a href="tel:{{ phone|replace(" ", "") }}">{{ phone }}</a></dd>
-
-      <dt>Web:</dt>
-      <dd><a href="{{ web }}">{{ web }}</a></dd>
-
       <dt>Jazyky:</dt>
       <dd>{{ languages|join(', ') }}</dd>
-
-      <dt>Znalosti:</dt>
-      <dd>
-        {{ knowledge['primary']|join(', ') }}<br>
-        <small>{{ knowledge['secondary']|join(', ') }}</small>
-      </dd>
     </dl>
+
 
     <h2>Vzdělání</h2>
     <ul>
       {% for school in education %}
+      <li>
+        <strong>{{ school.name }}</strong> ({{ school.start }} — {{ school.end }})<br>
+        {{ school.description }}
+      </li>
+      {% endfor %}
+    </ul>
+    
+    <h2>Bibliografie</h2>
+    <ul>
+      {% for work in bibliography %}
+      <li>
+        <a href="http://www.judakaleta.cz/bibliography/{{ work.file }}"><strong>{{ work.title }}</strong> ({{ work.year }})</a>
+      </li>
+      {% endfor %}
+    </ul>
+    
+    <h2>Pedagogická praxe</h2>
+    <ul>
+      {% for item in praxe|sort(reverse=True) %}
         <li>
-          <strong>{{ school.name }}</strong>
-          — {{ school.description }} ({{ school.start }} — {{ school.end }})
+          <strong>{{ item.title }}</strong> ({{ item.start }}{% if item.end %} — {{ item.end }}{% endif %})<br>
+          {{ item.description }}
         </li>
       {% endfor %}
     </ul>
@@ -87,6 +95,12 @@
         </li>
       {% endfor %}
     </ul>
+    
+    <h2>Znalosti ve vývoji software:</h2>
+    <p>
+      {{ knowledge['primary']|join(', ') }}<br>
+      <small>{{ knowledge['secondary']|join(', ') }}</small>
+    </p>
 
 
     <h2>Odkazy</h2>
