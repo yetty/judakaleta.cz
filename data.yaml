@@ -169,27 +169,40 @@ links:
             
 bibliography:
     -
-        title: Historie města Nýrska se zaměřením na 20. století
-        year: 2014
-        file: 2014-nyrsko.pdf
+        title: Anton Schott — osudy šumavského spisovatele
+        year: 2016
+        file: 2016-schott.pdf
+
+    -
+        title: „…a drápal rouhavé poznámky do mých knih.“
+        year: 2016
+        file: 2016-stevenson.pdf
+
+    -
+        title: Svatý Lukáš na písčitých březích
+        year: 2015
+        file: 2015-svaty-lukas.pdf    
+    -
+        title: Historie rychty Svatá Kateřina — zaniklá místa v okolí města Nýrska
+        year: 2015
+        file: 2015-svata-katerina.pdf
         
     -
-        title: Balady a romance - zamyšlení nad náboženskou tematikou v básních Jana Nerudy
-        year: 2014
-        file: 2014-balady-a-romance.pdf
-        
+        title: Písní proti totalitě? — Spirituál kvintet jako (anti)symbol minulého režimu
+        year: 2015
+        file: 2015-spiritual-kvintet.pdf
     -
         title: Ráj a Élysion, představy prvních křesťanů o onom světě
         year: 2015
         file: 2015-raj-a-elysion.pdf
         
     -
-        title: Písní proti totalitě? — Spirituál kvintet jako (anti)symbol minulého režimu
-        year: 2015
-        file: 2015-spiritual-kvintet.pdf
-        
+        title: Balady a romance - zamyšlení nad náboženskou tematikou v básních Jana Nerudy
+        year: 2014
+        file: 2014-balady-a-romance.pdf
+
     -
-        title: Historie rychty Svatá Kateřina — zaniklá místa v okolí města Nýrska
-        year: 2015
-        file: 2015-svata-katerina.pdf
+        title: Historie města Nýrska se zaměřením na 20. století
+        year: 2014
+        file: 2014-nyrsko.pdf
         
