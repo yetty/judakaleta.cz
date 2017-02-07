@@ -1,6 +1,6 @@
 name: Juda Kaleta
 mail: juda.kaleta@gmail.com
-phone: 724 895 049
+phone: +420 724 895 049
 web: http://www.judakaleta.cz
 birth: 8. října 1993
 
@@ -12,6 +12,7 @@ languages:
     - angličtina (pokročilý)
     - francouzština (základy)
     - němčina (základy)
+    - polštine (základy)
     - latina (základy)
 
 knowledge:
@@ -55,12 +56,19 @@ praxe:
 
 jobs:
     -
+        name: Team Zeus
+        description: vývoj webových aplikací v Python/Django, návrh API, správa serverů (Ansible)
+        web: https://teamzeusapp.com/
+        position: programátor
+        start: 2013
+        end: 2016
+    -
         name: Codescale
         description: vývoj webových aplikací v Python/Django a C#, návrh API
         web: http://www.codescale.cz/
         position: programátor
         start: 2013
-        end: současnost
+        end: 2016
     -
         name: Wegra.eu
         description: správa a vývoj internetových obchodů postavených na

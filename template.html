@@ -34,25 +34,6 @@
       </li>
       {% endfor %}
     </ul>
-    
-    <h2>Bibliografie</h2>
-    <ul>
-      {% for work in bibliography %}
-      <li>
-        <a href="http://www.judakaleta.cz/bibliography/{{ work.file }}"><strong>{{ work.title }}</strong> ({{ work.year }})</a>
-      </li>
-      {% endfor %}
-    </ul>
-    
-    <h2>Pedagogická praxe</h2>
-    <ul>
-      {% for item in praxe|sort(reverse=True) %}
-        <li>
-          <strong>{{ item.title }}</strong> ({{ item.start }}{% if item.end %} — {{ item.end }}{% endif %})<br>
-          {{ item.description }}
-        </li>
-      {% endfor %}
-    </ul>
 
     <h2>Pracovní zkušenosti</h2>
     {% for job in jobs %}
@@ -101,6 +82,26 @@
       {{ knowledge['primary']|join(', ') }}<br>
       <small>{{ knowledge['secondary']|join(', ') }}</small>
     </p>
+    
+    <h2>Bibliografie</h2>
+    <ul>
+      {% for work in bibliography %}
+      <li>
+        <a href="http://www.judakaleta.cz/bibliography/{{ work.file }}"><strong>{{ work.title }}</strong> ({{ work.year }})</a>
+      </li>
+      {% endfor %}
+    </ul>
+    
+    <h2>Pedagogická praxe</h2>
+    <ul>
+      {% for item in praxe|sort(reverse=True) %}
+        <li>
+          <strong>{{ item.title }}</strong> ({{ item.start }}{% if item.end %} — {{ item.end }}{% endif %})<br>
+          {{ item.description }}
+        </li>
+      {% endfor %}
+    </ul>
+
 
 
     <h2>Odkazy</h2>
